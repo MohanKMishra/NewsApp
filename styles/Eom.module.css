@@ -1,0 +1,38 @@
+.main{
+    background-color: violet;
+    width:100vw;
+    margin-top: 50px;
+}
+.box{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.img img{
+    height: calc(100vh - 60px);
+}
+.details{
+    margin-top: 20%;
+
+}
+.details h1{
+    font-size: 25px;
+    color: white;
+}
+.details h2{
+    font-size: 20px;
+    color: white;
+}
+@media (max-width:600px){
+    .main{
+        height: 100vh !important;
+    }
+    .box{
+        flex-direction: column;
+    }
+    .img img{
+        height:50vh;
+        width: 100%;
+    }
+}
